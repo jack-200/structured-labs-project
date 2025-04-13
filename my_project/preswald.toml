@@ -1,0 +1,25 @@
+[project]
+title = "Preswald Project"
+version = "0.1.0"
+port = 8501
+slug = "my-project-578143"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Preswald Project"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[data.vegetable_prices_csv]
+type = "csv"
+path = "data/Vegetable-Prices-2022.csv"
+description = "Dateset sourced from: https://www.ers.usda.gov/data-products/fruit-and-vegetable-prices"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
